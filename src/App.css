@@ -23,15 +23,35 @@
 } */
 
 .bg {
-  background-image: url(./assets/background-graphic.png);
-  position: relative;
+  min-height: 100vh;
+  background: url(./assets/background-graphic.png);
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
+  background-position: center center;
+  
 }
 
-.content {
-  min-height: 100vh;
+@media only screen and (max-width: 991px) {
+  .bg {
+    background: url(./assets/background-graphic-tablet.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
 }
+
+@media only screen and (max-width: 575px) {
+  .bg {
+    background: url(./assets/background-graphic-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+/* .content {
+  min-height: 100vh;
+} */
 
 .title {
   font-family: 'Noto Serif';
@@ -60,7 +80,7 @@ p {
   text-decoration-line: underline;
   font-size: 16px;
   position: relative;
-  bottom: 20px
+  bottom: 16px
 }
 
 body {

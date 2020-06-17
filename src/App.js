@@ -9,11 +9,11 @@ function App() {
     <div className="container-fluid">
       <div className="row">
         <div class="col-md-5 bg"></div>
-        <div class="col-md-7 content">
+        <div class="col-md-7 content p-5">
           
           <div className="row">
-            <div className="col-sm-4 order-sm-2"><img className="headshot order-1" src={headshot} /></div>
-            <div className="col-sm-8 order-sm-1 title">
+            <div className="col-sm-3 order-sm-2 d-flex justify-content-center"><img className="headshot order-1" src={headshot} /></div>
+            <div className="col-sm-9 order-sm-1 title text-center text-sm-left">
               <h2>Hi, my name is <strong>Richard Tinajero</strong>.</h2>
               <h2>I'm a <strong>Full Stack Developer</strong>.</h2>
             </div>
@@ -59,7 +59,7 @@ function App() {
               <p>If you'd like to connect, please email me at</p>
               <a style={{fontFamily: "Noto Sans"}} className="link_out" href="mailto:rj.tinajero92@gmail.com">rj.tinajero92@gmail.com</a>
             </div>
-            <div className="col-sm-3 social">
+            <div className="col-sm-3 social text-center">
               <a className="p-0" href="https://linkedin.com/in/richard-tinajero" target="_blank"><img src={linkedin} /></a>
               <a className="p-2" href="https://github.com/rj-tinajero" target="_blank"><img src={github} /></a>
             </div>
