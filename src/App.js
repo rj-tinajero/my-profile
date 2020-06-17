@@ -8,12 +8,12 @@ function App() {
   return (
     <div className="container-fluid">
       <div className="row">
-        <div class="col-md-5 bg"></div>
-        <div class="col-md-7 content p-5">
+        <div className="col-md-5 bg"></div>
+        <div className="col-md-7 content mx-auto">
           
           <div className="row">
-            <div className="col-sm-3 order-sm-2 d-flex justify-content-center"><img className="headshot order-1" src={headshot} /></div>
-            <div className="col-sm-9 order-sm-1 title text-center text-sm-left">
+            <div className="col-sm-3 order-sm-2 d-flex justify-content-center headshot-wrapper my-auto"><img className="headshot order-1" src={headshot} /></div>
+            <div className="col-sm-9 order-sm-1 title text-center text-sm-left my-auto">
               <h2>Hi, my name is <strong>Richard Tinajero</strong>.</h2>
               <h2>I'm a <strong>Full Stack Developer</strong>.</h2>
             </div>
@@ -23,29 +23,47 @@ function App() {
           <div className="row">
             <div className="col-sm-12 text-center text-sm-left"><h5>ABOUT</h5></div>
           </div>
-          <p>I reside in sunny Riverside, California. I am skilled in JavaScript and build projects using modern frameworks like React and Node. I have 
-                4+ years of work experience in operational manufacturing and deployment. I recently took part in a web development
-                certification program run by Bloc. There, I built a number of projects and continue to build more to this very day! 
-                My passions include mentoring college students, guitar, photography, and programming of course! 
-          </p>
-          <p>This is a new paragragh right here.</p>
-          <a 
-                style={{fontFamily: "Noto Sans"}}
-                className="link_out"
-                href="https://github.com/rj-tinajero/profile/blob/master/RichardTinajero_Resume.pdf" 
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Check out my resume
-              </a>
+
+          <div className="abt_p">
+            <p>I reside in sunny Riverside, California. I am skilled in JavaScript and build projects using modern frameworks like React and Node. I have 
+                  4+ years of work experience in operational manufacturing and deployment. I recently took part in a web development
+                  certification program run by Bloc. There, I built a number of projects and continue to build more to this very day! 
+                  My passions include mentoring college students, guitar, photography, and programming of course! 
+            </p>
+            <p>This is a new paragragh right here.</p>
+            <a 
+              style={{fontFamily: "Noto Sans"}}
+              className="link_out"
+              href="https://github.com/rj-tinajero/profile/blob/master/RichardTinajero_Resume.pdf" 
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Check out my resume
+            </a>
+          </div>
+          
           <div className="row">
             <div className="col-sm-12 text-center text-sm-left"><h5>PROJECTS</h5></div>
           </div>
 
-          <div className="row">
-            {/* <div className="col-sm-6">Project</div>
-            <div className="col-sm-6">Project</div> */}
-          </div>
+          {/* <div className="row">
+            <div className="col-sm-6">
+              <div className="card">
+                <img  src="..." alt="Card image cap"/>
+                <div className="card-body">
+                  <p className="card-text">Profile</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-sm-6">
+              <div className="card">
+                <img  src="..." alt="Card image cap"/>
+                <div className="card-body">
+                  <p className="card-text">Profile</p>
+                </div>
+              </div>
+            </div>
+          </div> */}
 
 
           <div className="row">
