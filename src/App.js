@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import headshot from './assets/profile_headshot.jpg'
+import headshot from './assets/profile_headshot.png'
 import linkedin from './assets/icon-linkedin.svg'
 import github from './assets/icon-github.svg'
 
@@ -30,9 +30,8 @@ function App() {
                   certification program run by Bloc. There, I built a number of projects and continue to build more to this very day! 
                   My passions include mentoring college students, guitar, photography, and programming of course! 
             </p>
-            <p>This is a new paragragh right here.</p>
+            {/* <p>This is a new paragragh right here.</p> */}
             <a 
-              style={{fontFamily: "Noto Sans"}}
               className="link_out"
               href="https://github.com/rj-tinajero/profile/blob/master/RichardTinajero_Resume.pdf" 
               target="_blank"
@@ -42,9 +41,9 @@ function App() {
             </a>
           </div>
           
-          <div className="row">
+          {/* <div className="row">
             <div className="col-sm-12 text-center text-sm-left"><h5>PROJECTS</h5></div>
-          </div>
+          </div> */}
 
           {/* <div className="row">
             <div className="col-sm-6">
@@ -72,10 +71,9 @@ function App() {
           
           <div className="row">
             <div className="col-sm-9">
-              <p>Donec id elit non mi porta gravida at eget metus. 
-                Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
-              <p>If you'd like to connect, please email me at</p>
-              <a style={{fontFamily: "Noto Sans"}} className="link_out" href="mailto:rj.tinajero92@gmail.com">rj.tinajero92@gmail.com</a>
+              {/* <p>You can find more information about me on my Linkedin profile as well as my GitHub profile.</p> */}
+              <p>My preferred method of contact is through email. If you'd like to connect, please email me at</p>
+              <a className="link_out" href="mailto:rj.tinajero92@gmail.com">rj.tinajero92@gmail.com</a>
             </div>
             <div className="col-sm-3 social text-center">
               <a className="p-0" href="https://linkedin.com/in/richard-tinajero" target="_blank"><img src={linkedin} /></a>
