@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import headshot from './assets/profile_headshot.png'
+import headshot from './assets/profile_headshot.jpg'
 import linkedin from './assets/icon-linkedin.svg'
 import github from './assets/icon-github.svg'
 
