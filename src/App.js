@@ -45,9 +45,9 @@ function App() {
           
           {/* <div className="row">
             <div className="col-sm-12 text-center text-sm-left"><h5>PROJECTS</h5></div>
-          </div> */}
+          </div>
 
-          {/* <div className="row">
+          <div className="row">
             <div className="col-sm-6">
               <div className="card">
                 <img  src="..." alt="Card image cap"/>
@@ -74,7 +74,7 @@ function App() {
           <div className="row">
             <div className="col-sm-9">
               {/* <p>You can find more information about me on my Linkedin profile as well as my GitHub profile.</p> */}
-              <p>My preferred method of contact is through email. If you'd like to connect, please email me at</p>
+              <p>If you'd like to connect, please email me at</p>
               <a className="links" href="mailto:rj.tinajero92@gmail.com">rj.tinajero92@gmail.com</a>
             </div>
             <div className="col-sm-3 social text-center">
