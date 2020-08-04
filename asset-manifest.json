@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/my-profile/static/css/main.396f8649.chunk.css",
-    "main.js": "/my-profile/static/js/main.5ea1cec5.chunk.js",
-    "main.js.map": "/my-profile/static/js/main.5ea1cec5.chunk.js.map",
+    "main.css": "/my-profile/static/css/main.09bb8f60.chunk.css",
+    "main.js": "/my-profile/static/js/main.e6fc4375.chunk.js",
+    "main.js.map": "/my-profile/static/js/main.e6fc4375.chunk.js.map",
     "runtime-main.js": "/my-profile/static/js/runtime-main.07a20771.js",
     "runtime-main.js.map": "/my-profile/static/js/runtime-main.07a20771.js.map",
-    "static/js/2.596197e0.chunk.js": "/my-profile/static/js/2.596197e0.chunk.js",
-    "static/js/2.596197e0.chunk.js.map": "/my-profile/static/js/2.596197e0.chunk.js.map",
+    "static/js/2.dc09e88f.chunk.js": "/my-profile/static/js/2.dc09e88f.chunk.js",
+    "static/js/2.dc09e88f.chunk.js.map": "/my-profile/static/js/2.dc09e88f.chunk.js.map",
     "index.html": "/my-profile/index.html",
-    "precache-manifest.eb4a6b449f316a3378ab2250b79415f2.js": "/my-profile/precache-manifest.eb4a6b449f316a3378ab2250b79415f2.js",
+    "precache-manifest.8920456a65e6bb2bdb13974b1a28cbee.js": "/my-profile/precache-manifest.8920456a65e6bb2bdb13974b1a28cbee.js",
     "service-worker.js": "/my-profile/service-worker.js",
-    "static/css/main.396f8649.chunk.css.map": "/my-profile/static/css/main.396f8649.chunk.css.map",
-    "static/js/2.596197e0.chunk.js.LICENSE.txt": "/my-profile/static/js/2.596197e0.chunk.js.LICENSE.txt",
+    "static/css/main.09bb8f60.chunk.css.map": "/my-profile/static/css/main.09bb8f60.chunk.css.map",
+    "static/js/2.dc09e88f.chunk.js.LICENSE.txt": "/my-profile/static/js/2.dc09e88f.chunk.js.LICENSE.txt",
+    "static/media/Todo.png": "/my-profile/static/media/Todo.f66d9241.png",
     "static/media/App.css": "/my-profile/static/media/background-graphic.efb5cd58.jpg",
     "static/media/icon-github.svg": "/my-profile/static/media/icon-github.d908b8f3.svg",
     "static/media/icon-linkedin.svg": "/my-profile/static/media/icon-linkedin.f65925ad.svg",
@@ -19,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.07a20771.js",
-    "static/js/2.596197e0.chunk.js",
-    "static/css/main.396f8649.chunk.css",
-    "static/js/main.5ea1cec5.chunk.js"
+    "static/js/2.dc09e88f.chunk.js",
+    "static/css/main.09bb8f60.chunk.css",
+    "static/js/main.e6fc4375.chunk.js"
   ]
 }
