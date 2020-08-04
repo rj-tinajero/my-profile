@@ -64,10 +64,22 @@ h5 {
   letter-spacing: 0.15em;
 }
 
+.skills {
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 120%;
+  /* or 14px */
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
 p {
   font-family: 'Noto Sans';
   font-size: 16px;
   padding-right: 10px;
+  color: #272643;
 }
 
 .links {
@@ -79,20 +91,30 @@ p {
   font-family: 'Noto Sans';
 }
 
+.link {
+  color: #1AC0C6;
+  text-decoration-line: underline;
+  font-size: 16px;
+  bottom: 16px;
+  font-family: 'Noto Sans';
+}
+
 body {
   background-color: #FAFAFA;
 }
 
 .card {
-  position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
-
   background: #FFFFFF;
   /* Card Shadow */
-
-  box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 15px 30px -20px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
+  border: none;
+  max-width: 650px;
+}
+
+.card-img {
+  padding: 10px;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
 }
