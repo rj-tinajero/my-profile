@@ -6,6 +6,8 @@ import github from './assets/icon-github.svg'
 import todo from './assets/Todo.png'
 import profile from './assets/Website.png'
 import wiki from './assets/Wiki.png'
+import email from './assets/icon-email.svg'
+import cv from './assets/icon.svg'
 
 function App() {
   return (
@@ -36,81 +38,17 @@ function App() {
                   My passions include mentoring college students, guitar, photography, and programming of course! 
             </p>
             {/* <p>This is a new paragragh right here.</p> */}
-            <a 
-              className="links"
-              href="https://github.com/rj-tinajero/profile/blob/master/RichardTinajero_Resume.pdf" 
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Check out my resume
-            </a>
-          </div>
-          
-          <div className="row">
-            <div className="col-sm-12 text-center text-sm-left"><h5>PROJECTS</h5></div>
           </div>
 
-          <div class="card mb-3" >
-            <div class="row no-gutters">
-              <div class="col-sm-4 my-auto">
-                <img src={todo} class="card-img" alt="Todo App" />
-              </div>
-              <div class="col-sm-8">
-                <div class="card-body">
-                  <h3 className="title"><strong>Todo App</strong></h3>
-                  <h5 class="card-title skills">REACT / REDUX</h5>
-                  <p class="card-text">SPA thats stores tasks within the broswer's local storage. Filter option is included to change view options. Just press the plus button to start!</p>
-                  <a className="link" href="https://rj-tinajero.github.io/Redux-To-Do-List" target="_blank" rel="noopener noreferrer">View demo</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="card mb-3" >
-            <div class="row no-gutters">
-              <div class="col-sm-4 my-auto">
-                <img src={profile} class="card-img" alt="Todo App" />
-              </div>
-              <div class="col-sm-8">
-                <div class="card-body">
-                  <h3 className="title"><strong>Porfolio Page</strong></h3>
-                  <h5 class="card-title skills">RESPONSIVE DESIGN / HTML / BOOTSTRAP CSS</h5>
-                  <p class="card-text">The page you see here was built off of a Figma design from a friend of mine. Its "pexel-perfect" to design and fully responsive. Shrink the browser window to see!</p>
-                  <p>(You are viewing it now!)</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="card mb-3" >
-            <div class="row no-gutters">
-              <div class="col-sm-4 my-auto">
-                <img src={wiki} class="card-img" alt="Todo App" />
-              </div>
-              <div class="col-sm-8">
-                <div class="card-body">
-                  <h3 className="title"><strong>Sharepedia</strong></h3>
-                  <h5 class="card-title skills">NODE JS / POSTGRES / USER AUTH</h5>
-                  <p class="card-text">Wikipedia clone that serves HTML from the server via EJS. Allows users to create and modify wikis. Uses Stripe API to upgrade user accounts. Wikis can be edited and displayed in Markdown syntax.</p>
-                  <a className="link" href="https://rj-tinajero-sharepedia.herokuapp.com/" target="_blank" rel="noopener noreferrer">View demo</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <div className="row">
-            <div className="col-sm-12 text-center text-sm-left"><h5>CONTACT</h5></div>
-          </div>
-          
-          <div className="row">
-            <div className="col-sm-9">
-              {/* <p>You can find more information about me on my Linkedin profile as well as my GitHub profile.</p> */}
-              <p>If you'd like to connect, please email me at</p>
-              <a className="links" href="mailto:rj.tinajero92@gmail.com">rj.tinajero92@gmail.com</a>
-            </div>
-            <div className="col-sm-3 social text-center">
-              <a className="p-0" href="https://linkedin.com/in/richard-tinajero" target="_blank" rel="noopener noreferrer">
+          <div className="row social">
+            <div className="col-sm-12 text-sm-left text-center">
+              <a className="p-2" href="https://github.com/rj-tinajero/profile/blob/master/RichardTinajero_Resume.pdf" target="_blank" rel="noopener noreferrer">
+                <img src={cv} alt="CV logo" />
+              </a>
+              <a className="p-2" href="mailto:rj.tinajero92@gmail.com" target="_blank" rel="noopener noreferrer">
+                <img src={email} alt="Email logo" />
+              </a>
+              <a className="p-2" href="https://linkedin.com/in/richard-tinajero" target="_blank" rel="noopener noreferrer">
                 <img src={linkedin} alt="Linkedin logo" />
               </a>
               <a className="p-2" href="https://github.com/rj-tinajero" target="_blank" rel="noopener noreferrer">
@@ -118,9 +56,60 @@ function App() {
               </a>
             </div>
           </div>
+            
+          
+          <div className="row">
+            <div className="col-sm-12 text-center text-sm-left"><h5>PROJECTS</h5></div>
+          </div>
 
-          
-          
+          <div className="card mb-3" >
+            <div className="row no-gutters">
+              <div className="col-sm-4 my-auto">
+                <img src={todo} className="card-img" alt="Todo App" />
+              </div>
+              <div className="col-sm-8">
+                <div className="card-body">
+                  <h3 className="title"><strong>Todo App</strong></h3>
+                  <h5 className="card-title skills">REACT / REDUX</h5>
+                  <p className="card-text">SPA thats stores tasks within the broswer's local storage. Filter option is included to change view options. Just press the plus button to start!</p>
+                  <a className="link" href="https://rj-tinajero.github.io/Redux-To-Do-List" target="_blank" rel="noopener noreferrer">View demo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="card mb-3" >
+            <div className="row no-gutters">
+              <div className="col-sm-4 my-auto">
+                <img src={profile} className="card-img" alt="Todo App" />
+              </div>
+              <div className="col-sm-8">
+                <div className="card-body">
+                  <h3 className="title"><strong>Porfolio Page</strong></h3>
+                  <h5 className="card-title skills">RESPONSIVE DESIGN / HTML / BOOTSTRAP CSS</h5>
+                  <p className="card-text">The page you see here was built off of a Figma design from a friend of mine. Its "pexel-perfect" to design and fully responsive. Shrink the browser window to see!</p>
+                  <p>(You are viewing it now!)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="card mb-3" >
+            <div className="row no-gutters">
+              <div className="col-sm-4 my-auto">
+                <img src={wiki} className="card-img" alt="Todo App" />
+              </div>
+              <div className="col-sm-8">
+                <div className="card-body">
+                  <h3 className="title"><strong>Sharepedia</strong></h3>
+                  <h5 className="card-title skills">NODE JS / POSTGRES / USER AUTH</h5>
+                  <p className="card-text">Wikipedia clone that serves HTML from the server via EJS. Allows users to create and modify wikis. Uses Stripe API to upgrade user accounts. Wikis can be edited and displayed in Markdown syntax.</p>
+                  <a className="link" href="https://rj-tinajero-sharepedia.herokuapp.com/" target="_blank" rel="noopener noreferrer">View demo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
       
