@@ -42,7 +42,7 @@ function App() {
 
           <div className="row social">
             <div className="col-sm-12 text-sm-left text-center">
-              <a className="p-2" href="https://github.com/rj-tinajero/profile/blob/master/RichardTinajero_Resume.pdf" target="_blank" rel="noopener noreferrer">
+              <a className="p-2" href="https://github.com/rj-tinajero/my-profile/blob/master/RichardTinajero_Resume.pdf" target="_blank" rel="noopener noreferrer">
                 <img src={cv} alt="CV logo" />
               </a>
               <a className="p-2" href="mailto:rj.tinajero92@gmail.com" target="_blank" rel="noopener noreferrer">
