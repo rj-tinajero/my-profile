@@ -42,7 +42,7 @@ function App() {
 
           <div className="row social">
             <div className="col-sm-12 text-sm-left text-center">
-              <a className="cv-icon" href="https://www.dropbox.com/s/kqtj6co222l6xlt/RichardTinajero_Resume.pdf?dl=0" target="_blank" rel="noopener noreferrer">
+              <a className="cv-icon" href="https://www.dropbox.com/s/9bwxjt3ym2mfzqc/RichardTinajero_Resume.pdf?dl=0" target="_blank" rel="noopener noreferrer">
                 <img src={cv} alt="CV logo" />
               </a>
               <a className="p-2" href="mailto:rj.tinajero92@gmail.com" target="_blank" rel="noopener noreferrer">
@@ -72,7 +72,7 @@ function App() {
                   <h3 className="card-title-main"><strong>Todo App</strong></h3>
                   <h5 className="card-title skills">REACT / REDUX</h5>
                   <p className="card-text">SPA thats stores tasks within the broswer's local storage. Filter option is included to change view options. Just press the plus button to start!</p>
-                  <a className="link" href="https://rj-tinajero.github.io/Redux-To-Do-List" target="_blank" rel="noopener noreferrer">View demo</a>
+                  <a className="link" href="https://rj-tinajero.github.io/redux-todo" target="_blank" rel="noopener noreferrer">View demo</a>
                 </div>
               </div>
             </div>
