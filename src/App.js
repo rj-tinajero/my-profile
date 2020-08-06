@@ -42,7 +42,7 @@ function App() {
 
           <div className="row social">
             <div className="col-sm-12 text-sm-left text-center">
-              <a className="p-2" href="https://github.com/rj-tinajero/my-profile/blob/master/RichardTinajero_Resume.pdf" target="_blank" rel="noopener noreferrer">
+              <a className="cv-icon" href="https://www.dropbox.com/s/kqtj6co222l6xlt/RichardTinajero_Resume.pdf?dl=0" target="_blank" rel="noopener noreferrer">
                 <img src={cv} alt="CV logo" />
               </a>
               <a className="p-2" href="mailto:rj.tinajero92@gmail.com" target="_blank" rel="noopener noreferrer">
@@ -69,26 +69,10 @@ function App() {
               </div>
               <div className="col-sm-8">
                 <div className="card-body">
-                  <h3 className="title"><strong>Todo App</strong></h3>
+                  <h3 className="card-title-main"><strong>Todo App</strong></h3>
                   <h5 className="card-title skills">REACT / REDUX</h5>
                   <p className="card-text">SPA thats stores tasks within the broswer's local storage. Filter option is included to change view options. Just press the plus button to start!</p>
                   <a className="link" href="https://rj-tinajero.github.io/Redux-To-Do-List" target="_blank" rel="noopener noreferrer">View demo</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="card mb-3" >
-            <div className="row no-gutters">
-              <div className="col-sm-4 my-auto">
-                <img src={profile} className="card-img" alt="Todo App" />
-              </div>
-              <div className="col-sm-8">
-                <div className="card-body">
-                  <h3 className="title"><strong>Porfolio Page</strong></h3>
-                  <h5 className="card-title skills">RESPONSIVE DESIGN / HTML / BOOTSTRAP CSS</h5>
-                  <p className="card-text">The page you see here was built off of a Figma design from a friend of mine. Its "pexel-perfect" to design and fully responsive. Shrink the browser window to see!</p>
-                  <p>(You are viewing it now!)</p>
                 </div>
               </div>
             </div>
@@ -101,10 +85,26 @@ function App() {
               </div>
               <div className="col-sm-8">
                 <div className="card-body">
-                  <h3 className="title"><strong>Sharepedia</strong></h3>
+                  <h3 className="card-title-main"><strong>Sharepedia</strong></h3>
                   <h5 className="card-title skills">NODE JS / POSTGRES / USER AUTH</h5>
                   <p className="card-text">Wikipedia clone that serves HTML from the server via EJS. Allows users to create and modify wikis. Uses Stripe API to upgrade user accounts. Wikis can be edited and displayed in Markdown syntax.</p>
                   <a className="link" href="https://rj-tinajero-sharepedia.herokuapp.com/" target="_blank" rel="noopener noreferrer">View demo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="card mb-3" >
+            <div className="row no-gutters">
+              <div className="col-sm-4 my-auto">
+                <img src={profile} className="card-img" alt="Todo App" />
+              </div>
+              <div className="col-sm-8">
+                <div className="card-body">
+                  <h3 className="card-title-main"><strong>Porfolio Page</strong></h3>
+                  <h5 className="card-title skills">RESPONSIVE DESIGN / HTML / BOOTSTRAP CSS</h5>
+                  <p className="card-text">The page you see here was built off of a Figma design from a friend of mine. Its "pexel-perfect" to design and fully responsive. Shrink the browser window to see!</p>
+                  <p className="blurb">(Currrently viewing)</p>
                 </div>
               </div>
             </div>

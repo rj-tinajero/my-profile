@@ -44,6 +44,12 @@
 
 .title {
   font-family: 'Noto Serif';
+  padding-bottom: 10px;
+}
+
+.card-title-main {
+  font-family: 'Noto Serif';
+  font-size: 24px;
 }
 
 .headshot {
@@ -60,8 +66,10 @@
 h5 {
   font-family: 'Noto Serif';
   font-size: 12px;
-  color: #CCCCCC;
+  color: #AAAAAA;
   letter-spacing: 0.15em;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .skills {
@@ -73,6 +81,12 @@ h5 {
   /* or 14px */
   letter-spacing: 0.05em;
   text-transform: uppercase;
+  padding-bottom: 6px;
+}
+
+.blurb {
+  font-size: 14px;
+  color: #AAAAAA;
 }
 
 p {
@@ -120,5 +134,10 @@ body {
 }
 
 .social {
-  padding-bottom: 18px
+  padding-top: 40px;
+  padding-bottom: 40px
+}
+
+.cv-icon {
+  padding-right: 8px
 }
