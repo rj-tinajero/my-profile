@@ -6,6 +6,7 @@ import github from './assets/icon-github.svg'
 import todo from './assets/Todo.png'
 import profile from './assets/Website.png'
 import wiki from './assets/Wiki.png'
+import vote from './assets/vote.png'
 import email from './assets/icon-email.svg'
 import cv from './assets/icon.svg'
 
@@ -73,6 +74,22 @@ function App() {
                   <h5 className="card-title skills">REACT / REDUX</h5>
                   <p className="card-text">SPA thats stores tasks within the broswer's local storage. Filter option is included to change view options. Just press the plus button to start!</p>
                   <a className="link" href="https://rj-tinajero.github.io/redux-todo" target="_blank" rel="noopener noreferrer">View demo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="card mb-3" >
+            <div className="row no-gutters">
+              <div className="col-sm-4 my-auto">
+                <img src={vote} className="card-img-vote" alt="Todo App" />
+              </div>
+              <div className="col-sm-8">
+                <div className="card-body">
+                  <h3 className="card-title-main"><strong>VoteQuote</strong></h3>
+                  <h5 className="card-title skills">REACT / FIREBASE</h5>
+                  <p className="card-text">Gives you a random quote and you can give your opinion on it by upvoting or downvoting. Quotes and associated vote counts are stored in Firebase's Realtime Database.</p>
+                  <a className="link" href="https://rj-tinajero.github.io/vote-quote" target="_blank" rel="noopener noreferrer">View demo</a>
                 </div>
               </div>
             </div>
