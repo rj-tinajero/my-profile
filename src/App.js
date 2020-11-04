@@ -72,7 +72,7 @@ function App() {
                 <div className="card-body">
                   <h3 className="card-title-main"><strong>Todo App</strong></h3>
                   <h5 className="card-title skills">REACT / REDUX</h5>
-                  <p className="card-text">SPA thats stores tasks within the broswer's local storage. Filter option is included to change view options. Just press the plus button to start!</p>
+                  <p className="card-text">SPA thats stores tasks within the browser's local storage. Filter option is included to change view options. Just press the plus button to start!</p>
                   <a className="link" href="https://rj-tinajero.github.io/redux-todo" target="_blank" rel="noopener noreferrer">View demo</a>
                 </div>
               </div>
